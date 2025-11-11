@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@linuxforums</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="dots-container" id="dotsContainer"></div>
+
+    <div class="splash-screen" id="splashScreen">
+        <h1 class="enter-text">enter</h1>
+    </div>
+
+    <div class="main-content" id="mainContent">
+        <div class="bio-container">
+            <img src="icon.jpg" class="profile-image" alt="Profile Picture">
+            <h3 class="profile-name">dave</h3>
+            <p class="profile-subtitle">@linuxforums"</p>
+            <p class="socials-header">--Socials--</p>
+            <div class="social-links">
+                <a href="https://egin.cc/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <img src="imgs/litecoin.png" alt="Litecoin" class="social-icon">
+                </a>
+                <span class="social-link discord-link" onclick="copyToClipboard('1373366455357149255')">
+                    <img src="imgs/discord.png" alt="Discord" class="social-icon">
+                </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p></p>
+            <p class="domain-text">join my discord:</p>
+            <a href="https://discord.gg/soon" target="_blank" class="domain-link">/soon</a>
+        </div>
+    </div>
+
+    <div class="copy-notification" id="copyNotification">
+        Discord ID copied to clipboard!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
